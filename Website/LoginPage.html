@@ -47,7 +47,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about" class="page-scroll">Resources</a></li>
+        <li><a href="dashboard.html" class="page-scroll">Resources</a></li>
 		<li><a href="#about" class="page-scroll">Login</a></li>
       </ul>
     </div>
@@ -56,63 +56,41 @@
 </nav>
 <!-- Header -->
 <header id="header">
-  <div class="backdrop">
-      <div class="container-fluid">
+  <div class="intro">
+    <div class="overlay">
+      <div class="container">
         <div class="row">
-	    <div class="intro-text">
-		  <div class="row">
-				<div class="col-md-3">
-				<h5>Search Resources</h5>
-					<div class="dashimage1">
-					</div>
-				</div>
-				<div class="col-md-3">
-					<h5>Agenda</h5>
-				     <div class="dashimage2">
-					</div>
-				</div>
-				<div class="col-md-3">
-					<h5>Profile</h5>
-					<div class="dashimage3">
-					</div>
-				</div>
-				<div class="col-md-3">
-					<h5>Need an Assessment</h5>
-					<div class="dashimage4">
-					</div>
-				</div>
-		  </div>
-		  <div class="row">
-				<div class="col-md-3">
-				 <h5>Using This App</h5>
-				 <div class="dashimage1">
-			    </div>
-				</div>
-				<div class="col-md-3">
-					<h5>Important Documents</h5>
-					<div class="dashimage2">
-					</div>
-				</div>
-				<div class="col-md-3">
-					<h5>Volunteer</h5>
-					<div class="dashimage3">
-					</div>
-				</div>
-				<div class="col-md-3">
-					<h5>Send Feedback</h5>
-					<div class="dashimage4">
-					</div>
-				</div>
-		  </div>
+          <div class="intro-text">
+  <div class="wrapper">
+    <form class="form-signin">       
+      <h2 class="form-signin-heading">Please login</h2>
+      <input type="text" class="form-control" name="username" placeholder="Email Address" required="" autofocus="" />
+      <input type="password" class="form-control" name="password" placeholder="Password" required=""/>      
+      <label class="checkbox">
+        <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
+      </label>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>   
+    </form>
+  </div>
         </div>
       </div>
+    </div>
   </div>
-    <div class="container-fluid text-center">
+</header>
+<div id="footer">
+  <div class="container-fluid text-center">
         <p><a href="http://www.templatewire.com" rel="nofollow">About-Us</a></p>
         <p><a href="http://www.templatewire.com" rel="nofollow">Frequently Asked Questions</a></p>
         <p><a href="http://www.templatewire.com" rel="nofollow">Terms and Privacy Information</a></p>
   </div>
-</header>
+  <div class="container-fluid text-center copyrights">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="social">
+      </div>
+      <p><a href="http://www.templatewire.com" rel="nofollow">&copy Advice 2018</a></p>
+    </div>
+  </div>
+</div>
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
 <script type="text/javascript" src="js/bootstrap.js"></script> 
 <script type="text/javascript" src="js/SmoothScroll.js"></script> 
